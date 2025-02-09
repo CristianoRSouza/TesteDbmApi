@@ -3,15 +3,15 @@
 
 # Testes unitários
 
-## No Visual Studio, vá para o menu Test > Windows > Test Explorer.
+### No Visual Studio, vá para o menu Test > Windows > Test Explorer.
 
-## O Test Explorer exibirá todos os testes unitários disponíveis no projeto.
+### O Test Explorer exibirá todos os testes unitários disponíveis no projeto.
 
 # Executar todos os testes:
 
-## No Test Explorer, clique em Run All (ou pressione Ctrl + R, A) para executar todos os testes.
+### No Test Explorer, clique em Run All (ou pressione Ctrl + R, A) para executar todos os testes.
 
-## Os resultados serão exibidos no painel do Test Explorer.
+### Os resultados serão exibidos no painel do Test Explorer.
                                                                                                                                                                            
 # Criando e Publicando minha Imagem Docker para uma Api ASP.NET Core
 

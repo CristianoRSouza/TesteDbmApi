@@ -1,3 +1,6 @@
+                                                                                                                                                                            sh```
+# No caso para rodar a api, é necessário somente ter uma instancia do banco SqlServer no computador, as migrações e o banco serão inicializadas quando o usuario iniciar o a API
+                                                                                                                                                                            ```
 # Criando e Publicando minha Imagem Docker para uma Api ASP.NET Core
 
 ## 1. Criando a Imagem Docker

@@ -4,10 +4,10 @@ namespace ApiDbmTeste.Interfaces.IServices
 {
     public interface IServiceProduct
     {
-        Task AddUser(ProductDto product);
-        Task UpdateUser(ProductDto product);
-        Task<ProductDto> GetUser(int id);
-        Task<IEnumerable<ProductDto>> GetAllUser();
-        Task DeleteUser(int id);
+        Task AddProduct(ProductDto product);
+        Task UpdateProduct(ProductDto product);
+        Task<ProductDto> GetProduct(int id);
+        Task<IEnumerable<ProductDto>> GetAllProduct();
+        Task DeleteProduct(int id);
     }
 }

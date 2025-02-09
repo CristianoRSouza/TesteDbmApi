@@ -268,3 +268,5 @@ C:\Users\crist\source\repos\ApiDbmTeste\obj\Debug\net8.0\refint\ApiDbmTeste.dll
 C:\Users\crist\source\repos\ApiDbmTeste\obj\Debug\net8.0\ApiDbmTeste.pdb
 C:\Users\crist\source\repos\ApiDbmTeste\obj\Debug\net8.0\ApiDbmTeste.genruntimeconfig.cache
 C:\Users\crist\source\repos\ApiDbmTeste\obj\Debug\net8.0\ref\ApiDbmTeste.dll
+C:\Users\crist\source\repos\ApiDbmTeste\bin\Debug\net8.0\FluentAssertions.dll
+C:\Users\crist\source\repos\ApiDbmTeste\obj\Debug\net8.0\ApiDbmTeste.sourcelink.json

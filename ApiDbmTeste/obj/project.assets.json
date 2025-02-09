@@ -72,6 +72,19 @@
           "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
         }
       },
+      "FluentAssertions/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "FluentMigrator/6.2.0": {
         "type": "package",
         "dependencies": {
@@ -2387,6 +2400,33 @@
         "lib/netstandard2.0/FirebirdSql.Data.FirebirdClient.dll",
         "lib/netstandard2.1/FirebirdSql.Data.FirebirdClient.dll",
         "license.txt"
+      ]
+    },
+    "FluentAssertions/8.0.1": {
+      "sha512": "IW5CdXiD4BIijMkJsEajhkQr7HSgzoxZBHp77b4tm8isCKGaDH2AGugW6DLS0/EPhO/MCZ2JOGg6ObdlKISJMg==",
+      "type": "package",
+      "path": "fluentassertions/8.0.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "FluentAssertions.png",
+        "LICENSE.md",
+        "fluentassertions.8.0.1.nupkg.sha512",
+        "fluentassertions.nuspec",
+        "lib/net47/FluentAssertions.dll",
+        "lib/net47/FluentAssertions.pdb",
+        "lib/net47/FluentAssertions.xml",
+        "lib/net6.0/FluentAssertions.dll",
+        "lib/net6.0/FluentAssertions.pdb",
+        "lib/net6.0/FluentAssertions.xml",
+        "lib/netstandard2.0/FluentAssertions.dll",
+        "lib/netstandard2.0/FluentAssertions.pdb",
+        "lib/netstandard2.0/FluentAssertions.xml",
+        "lib/netstandard2.1/FluentAssertions.dll",
+        "lib/netstandard2.1/FluentAssertions.pdb",
+        "lib/netstandard2.1/FluentAssertions.xml",
+        "tools/init.ps1"
       ]
     },
     "FluentMigrator/6.2.0": {
@@ -6472,6 +6512,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper >= 13.0.1",
+      "FluentAssertions >= 8.0.1",
       "FluentMigrator >= 6.2.0",
       "FluentMigrator.Runner >= 6.2.0",
       "FluentValidation.AspNetCore >= 11.3.0",
@@ -6530,6 +6571,10 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "FluentAssertions": {
+            "target": "Package",
+            "version": "[8.0.1, )"
           },
           "FluentMigrator": {
             "target": "Package",

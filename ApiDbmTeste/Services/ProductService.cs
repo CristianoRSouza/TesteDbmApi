@@ -19,7 +19,7 @@ namespace ApiDbmTeste.Services
             _Mapper = mapper;
             _validator = validator;
         }
-        public async Task AddUser(ProductDto product)
+        public async Task AddProduct(ProductDto product)
         {
             var validationResult = await _validator.ValidateAsync(product);
             if (!validationResult.IsValid)
@@ -28,22 +28,22 @@ namespace ApiDbmTeste.Services
             await _productRepository.Add(_Mapper.Map<Product>(product));
         }
 
-        public async Task DeleteUser(int id)
+        public async Task DeleteProduct(int id)
         {
             await _productRepository.Delete(id);
         }
 
-        public async Task<IEnumerable<ProductDto>> GetAllUser()
+        public async Task<IEnumerable<ProductDto>> GetAllProduct()
         {
             return _Mapper.Map<IEnumerable<ProductDto>>(await _productRepository.GetAll());
         }
 
-        public async Task<ProductDto> GetUser(int id)
+        public async Task<ProductDto> GetProduct(int id)
         {
             return _Mapper.Map<ProductDto>(await _productRepository.Get(id));
         }
 
-        public async Task UpdateUser(ProductDto user)
+        public async Task UpdateProduct(ProductDto user)
         {
             var existingUser = await _productRepository.Get(user.Id);
             if (existingUser == null)

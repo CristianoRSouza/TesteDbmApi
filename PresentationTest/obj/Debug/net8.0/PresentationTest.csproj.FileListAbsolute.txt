@@ -225,3 +225,4 @@ C:\Users\crist\source\repos\PresentationTest\obj\Debug\net8.0\refint\Presentatio
 C:\Users\crist\source\repos\PresentationTest\obj\Debug\net8.0\PresentationTest.pdb
 C:\Users\crist\source\repos\PresentationTest\obj\Debug\net8.0\PresentationTest.genruntimeconfig.cache
 C:\Users\crist\source\repos\PresentationTest\obj\Debug\net8.0\ref\PresentationTest.dll
+C:\Users\crist\source\repos\PresentationTest\obj\Debug\net8.0\PresentationTest.sourcelink.json

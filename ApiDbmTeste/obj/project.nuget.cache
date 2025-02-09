@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/QjjtoJiDBk=",
+  "dgSpecHash": "ENGPOC2T4l0=",
   "success": true,
   "projectFilePath": "C:\\Users\\crist\\source\\repos\\ApiDbmTeste\\ApiDbmTeste.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\crist\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\firebirdsql.data.firebirdclient\\10.3.1\\firebirdsql.data.firebirdclient.10.3.1.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\fluentassertions\\8.0.1\\fluentassertions.8.0.1.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\fluentmigrator\\6.2.0\\fluentmigrator.6.2.0.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\fluentmigrator.abstractions\\6.2.0\\fluentmigrator.abstractions.6.2.0.nupkg.sha512",
     "C:\\Users\\crist\\.nuget\\packages\\fluentmigrator.extensions.mysql\\6.2.0\\fluentmigrator.extensions.mysql.6.2.0.nupkg.sha512",

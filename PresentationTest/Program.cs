@@ -1,4 +1,5 @@
 using PresentationTest.Services;
+using System.Globalization;
 
 namespace PresentationTest
 {
@@ -7,6 +8,12 @@ namespace PresentationTest
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            var cultureInfo = new CultureInfo("en-US");
+            cultureInfo.NumberFormat.NumberDecimalSeparator = ".";
+
+            CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
+            CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

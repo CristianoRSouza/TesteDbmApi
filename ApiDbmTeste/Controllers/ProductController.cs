@@ -20,13 +20,13 @@ namespace ApiDbmTeste.Controllers
         [HttpGet]
         public async Task<IEnumerable<ProductDto>> GetAll()
         {
-            return await _UserService.GetAllUser();
+            return await _UserService.GetAllProduct();
         }
 
         [HttpGet("{id}")]
         public async Task<ProductDto> Get(int id)
         {
-            return await _UserService.GetUser(id);
+            return await _UserService.GetProduct(id);
         }
 
         [HttpPost]
@@ -34,7 +34,7 @@ namespace ApiDbmTeste.Controllers
         {    
             try
             {
-                await _UserService.AddUser(product);
+                await _UserService.AddProduct(product);
                 return Ok("Produto cadastrado com sucesso!");
             }
             catch (FluentValidation.ValidationException ex)
@@ -47,13 +47,13 @@ namespace ApiDbmTeste.Controllers
         [HttpPut]
         public async Task Put([FromBody] ProductDto product)
         {
-            await _UserService.UpdateUser(product);
+            await _UserService.UpdateProduct(product);
         }
 
         [HttpDelete("{id}")]
         public async Task Delete(int id)
         {
-            await _UserService.DeleteUser(id);
+            await _UserService.DeleteProduct(id);
         }
     }
 }

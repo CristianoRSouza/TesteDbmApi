@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiDbmTeste")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d42b7d08482e41e96608940840b82023d0897feb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dda59c38158216db79756b474e72901ad50a7ccd")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiDbmTeste")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiDbmTeste")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

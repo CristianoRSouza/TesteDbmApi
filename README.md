@@ -1,5 +1,17 @@
 # Iniciar API                                                                                                                                                                            
 ## No caso para rodar a api, é necessário somente ter uma instancia do banco SqlServer no computador, o banco será criado dentro da instância que existir e as migrações serão inicializadas, quando o usuario iniciar API.
+
+# Testes unitários
+
+## No Visual Studio, vá para o menu Test > Windows > Test Explorer.
+
+## O Test Explorer exibirá todos os testes unitários disponíveis no projeto.
+
+# Executar todos os testes:
+
+## No Test Explorer, clique em Run All (ou pressione Ctrl + R, A) para executar todos os testes.
+
+## Os resultados serão exibidos no painel do Test Explorer.
                                                                                                                                                                            
 # Criando e Publicando minha Imagem Docker para uma Api ASP.NET Core
 

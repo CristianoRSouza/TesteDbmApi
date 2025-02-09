@@ -23,34 +23,34 @@ EXPOSE 8080
 CMD ["dotnet", "MinhaApi.dll"]
 
 Execute o seguinte comando no terminal para criar a imagem Docker:
-
+```sh
 docker build -t <seu-usuario>/aspnetcore-api:latest .
-
+```
 Exemplo:
-
+```sh
 docker build -t yarusski/aspnetcore-api:latest .
-
+```
 Isso criará a imagem da sua API ASP.NET Core.
 
 ## 2. Fazer Push da Imagem para o Docker Hub
 
 ### 2.1. Fazer Login no Docker Hub
 Se ainda não estiver autenticado, execute:
-
+```sh
 docker login
-
+```
 Informe seu nome de usuário e senha do Docker Hub.
 
 ### 2.2. Enviar a Imagem para o Docker Hub
 
 Execute o comando abaixo para enviar a imagem:
-
+```sh
 docker push yarusski/aspnetcore-api:latest
-
+```
 Exemplo:
-
+```sh
 docker push yarusski/aspnetcore-api:latest
-
+```
 Agora, sua imagem está disponível no Docker Hub e pode ser utilizada em qualquer ambiente compatível com Docker.
 
 ## 3. Rodando a Aplicação com Docker
